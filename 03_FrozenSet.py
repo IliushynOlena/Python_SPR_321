@@ -1,0 +1,20 @@
+frozenA = frozenset(['Hanna','Joe','Kate'])
+frozenB = frozenset(['Bob','Joe','Jane','Kate','Jack'])
+print("frozenA:",frozenA)
+print("frozenB:",frozenB)
+print("Intersection of frozensets:")
+print(frozenA&frozenB)
+print(frozenA.intersection(frozenB))
+print("Union of frozensets:")
+print(frozenA|frozenB)
+print(frozenA.union(frozenB))
+print("Difference of two frozensets:")
+print(frozenB-frozenA)
+print(frozenB.difference(frozenA))
+#frozenA.add('user')
+#frozenB.remove('Bob')
+
+allPizzaTypes=['Veggie', 'Pepperoni', 'Meat','Margherita', 'Meat', 'BBQ Chicken',
+'Hawaiian', 'Veggie']
+uniquePizzaTypes=list(set(allPizzaTypes))
+print(uniquePizzaTypes)
